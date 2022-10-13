@@ -16,7 +16,7 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://charisma.widemc.fun" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
+	mongoDB: "mongodb+srv://BeJIIHiu:oper4545@cluster0.z79u1ww.mongodb.net/charisma?retryWrites=true&w=majority", // The URl of the mongodb database
 	prefix: "/", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
